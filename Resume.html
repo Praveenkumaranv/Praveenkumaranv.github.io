@@ -1,90 +1,236 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Resume_Style.css">
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script src="npm i bootstrap-icons"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="../HTML/CSS/Resume_Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Document</title>
     
 </head>
 <body>
     <!-- home page -->
-    <div class="container">
-        <nav class="navbar" id="nav">
-            <div class="head"> <h5>PRAVEEN</h5></div>
-                <div class="list">
-                 <ul>
-                     <a href=""><li>HOME</li></a>
-                    <a href=""> <li>ABOUT</li></a>
-                    <a href=""> <li id="let">WHAT I DO</li></a>
-                     <a href=""><li>RESUME</li></a>
-                     <a href=""><li id="let1">PORT FOLIO</li></a>
-                     <a href=""><li>CLIENT</li></a>
-                     <a href=""><li>CONTACT</li></a>
-                 </ul>
-                </div>
-                <div class="link">
-                 <a href="" class="twit"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
-                 <a href="" class="face"><i class="fa-brands fa-facebook" style="color: white;"></i></a>
-                 <a href="" class="edge"><i class="fa-brands fa-edge" style="color: white;"></i></a>
-                </div>
-         </nav>
-         <div class="wel">
-                <h4>WELCOME</h4>
-                <p id="myself"> I am Praveen</p>
-                <p id="native">I am Based in Ariyalur</p>
-                <a href="" type="button" class="button">Hire Me</a>
-         </div>
-         <div class="anime">
-            <a href=""><i class="fa-solid fa-circle-down" style="color: white;"></i></i></a>
-         </div>
+    <div class="Section" id="homr">
+        <div class="container" >
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+              <div class="container mt-2">
+                  <a class="navbar-brand" href="#"><i class="fa-brands fa-pied-piper-alt fa-xl" style="color: #f6f5f4;"></i></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav"    >
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#homr">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#resume">Skill</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#note">Contact</a>
+                      </li>
+                    </ul>   
+                  </div>  
+              </div> 
+              </nav>
+            </div>
+              <div class="welcome container pt-10 " id="welcome">
+                <div class="" style="width: 200px;">
+                   <h2> Welcome</h2>
+                  </div>
+              </div>
+              <div class="container pt-5" id="name">
+                <p><h2 style="color: #20c997;"> <span id="element">PRAVEEN</span></h2></p>
+              </div>
     </div>
     <!-- Home page End -->
-    <!-- About page -->
-    <div class="about">
-        <h4 class="opacity">ABOUT ME</h4>
-        <p class="know">Know Me More
-            <span class="span"></span>
-        </p>
+    <!-- About page start-->
+      <div class="section1" id="about">
+          <div class="container">
+            <div class="skill" id="ski">  
+              <h4 class="opacity">ABOUT</h4>
+          <p class="know">
+              <span class="span"></span>
+          </p> 
+          </div>
+      </div>
+      <div class="flex">
+        <div class="container ">
+         <div class="row">
+          <p><h2>I'M <strong  style="color: #20c997;">Praveen</strong></h2></p>
+          <p>
+            I Completed my School Studies in Periyar Matriculation School in Jayankondam.
+            From 2013-2019
+          </p>
+          <p>
+           Hi, I'm , a recent graduate with a Bachelor's degree in Information Technology in 
+           Univesity College in Engineering,Villupuram.<br> From 2019-2023</p>
+            <p>
+            I am passionate about pursuing a career in software development.
+            </p>
 
-        <div class="about1">
-            <div class="about1 about2">
-                <h1>
-                    I'm <b>Praveen</b>, a Web Developer
-                </h1>
-                <p>
-                    I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
-                <p> Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
-
-            </div>
-            <div class="about1 about3">
-                <li>
-                    <span><b>Name:</b></span> Praveen.M
-                </li>
-                <li id="email">
-                    <span><b>Email:</b></span>
-                    <a href="mailto:praveenmathi7000@gmail.com">praveenmathi7000@gmail.com</a>
-                </li>
-                <li>
-                    <span><b>Age:</b></span>
-                    21
-                </li>
-               
-                <li>
-                    <span><b>From:</b></span>Ariyalur,Tamilnadu
-                </li>
-                <div class="cv">
-                    <a href="" type="button">Download CV</a>
-                </div>
-            </div>
-
+            <p><h4 style="color: #20c997;">HOBBIES</h4></p>
+            <div class="container">
+            <ul>
+              <li>Writing Blogs in Wordpress</li>
+              <li>Attend Meetings</li>
+              <li>Participating as Volunteers in 
+              Science Forum</li>
+              <li>Solving and Learning 
+              Programs in Leet Code.com</li>
+            </ul>
+          </div>
+         </div>
         </div>
-     </div>
-     <!-- About Page End -->
-     <!-- Skills Page -->
-     <div class="skill">  
-        <h4 class="opacity">SERVICES</h4>
-     </div>
+        <div class="container">
+          <div class="about1 about3">
+            <li>
+                <span><b>Name:</b></span> Praveen.M
+            </li>
+            <li id="email">
+                <span><b>Email:</b></span>
+                <a style="color: #20c997;" href="mailto:praveenmathi7000@gmail.com">praveenmathi7000@gmail.com</a>
+            </li>
+            <li>
+                <span><b>Age:</b></span>
+                21
+            </li>
+           
+            <li>
+                <span><b>From:</b></span>Ariyalur,Tamilnadu
+            </li>
+            <div class="cv">
+                <a href="" type="button">Download CV</a>
+            </div>
+        </div>
+        <!-- <div class="container mt-5" id="social">
+          <ul>
+            <li><a href=""><i class="fa-brands fa-gitlab fa-2xl" style="color: #f6f5f4;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github fa-2xl" style="color: #f6f5f4;"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-wordpress fa-2xl" style="color: #f6f5f4;"></i></a></li>
+          </ul>
+        </div> -->
+        </div>
+      </div>
+      </div>
+      <!-- About page end here -->
+      <!-- Skill Page start -->
+      <div class="middle" id="resume">
+        <div class="container">
+          <div class="skill" id="ski">  
+            <h4 class="opacity">SKILL</h4>
+        <p class="know">
+            <span class="span"></span>
+        </p> 
+        </div>
+    </div>
+    <div class="container progres">
+      <!-- <p><b>My Skills</b></p> -->
+      <div class="container">
+        <div class="container pt-4">
+          <span><strong style="color: #f1eaeb;">HTML / CSS</strong></span>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="50">80%</div>
+          </div>     
+      </div>
+      <div class="container pt-4">
+        <span><strong style="color: #f1eaeb;">JAVA SCRIPT</strong></span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65">65%</div>
+        </div>     
+    </div>
+    <div class="container pt-4">
+      <span><strong style="color: #f1eaeb;">GIT LAB</strong></span>
+      <span>
+
+      </span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">75%</div>
+      </div>     
+  </div>
+      </div>
+      <div class="container">
+        <div class="container pt-4">
+          <span><strong style="color: #f1eaeb;">JAVA</strong></span>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="50">80%</div>
+          </div>     
+      </div>
+      <div class="container pt-4">
+        <span><strong style="color: #f1eaeb;">SPRING BOOT</strong></span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">70%</div>
+        </div>     
+    </div>
+    <div class="container pt-4">
+      <span><strong style="color: #f1eaeb;">PSQL</strong></span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">75%</div>
+      </div>     
+  </div>
+      </div>
+    </div>
+      </div>
+      <!-- Skill page End -->
+      <!-- Contact page Start -->
+      <div class="bottom" id="note">
+        <div class="container">
+          <div class="skill" id="ski">  
+            <h4 class="opacity">CONTACT</h4>
+        <p class="know">
+            <span class="span"></span>
+        </p> 
+        </div>
+    </div>
+    <div class="container Contact">
+                 <div class="container">
+                  <h6><strong>ADDRESS<br></strong></h6>
+                      1/7A,South Street,<br> Keezhapatti,
+                      Marudhur,<br>Ariyalur(Dt),621710.
+                 </div>
+                 <div class="container">
+                  <div class="container">
+                    <h6><strong>SEND A NOTE<br></strong></h6>
+                  <div class="mb-4 form">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                  </div>
+                  <div class="mb-4 form">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                  </div>
+                  <div class="mb-5 form">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Tell About My Site......."></textarea>
+                  </div>
+                  </div>
+                  <div class="container" class="send">
+                    <button type="button" class="btn btn-success" >Send Message</button>
+
+                  </div>
+                 </div>
+
+    </div>
+      </div>
+
+
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['<strong>Praveen.M </strong>', ' A Web  Devoloper.'],
+        typeSpeed: 50,
+      });
+    </script>
+
 </body>
 </html>
+
+
