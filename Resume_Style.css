@@ -7,12 +7,12 @@ body{
 }
 .Section{
     background-color: #3d4852; 
-     height: 100vh;
+     height: 100%;
     background-attachment: fixed; 
      color: #20c997;
 }
 #welcome{
-    padding-top: 20vh;
+    padding-top: 20%;
 }
 .welcome{
   justify-content: center;
@@ -20,8 +20,8 @@ body{
 .section1{
   overflow-y: hidden;
   background-color: #212529;
-  width: 100vw;
-  height: 120vh;
+  width: 100%;
+  height: 120%;
   color: white;
 }  
 .opacity{
@@ -131,7 +131,7 @@ body{
 }
 .middle{
   background-color: #3d4852;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 .progres{
@@ -149,7 +149,7 @@ body{
 .bottom{
   background-color:  #212529 ;
   overflow: hidden;
-  height: 150vh;
+  height: 110%;
 }
 .Contact{
   font-family: Poppins,sans-serif !important;
